@@ -1,5 +1,7 @@
 # Windows的WSL音频解决方案
 
+使用pulseaudio进行音频转发，本项目主要是为了简化WSL与Windows之间通信转发的配置
+
 > 可以实现在WSL中使用musicbox播放音乐
 
 ## 依赖
