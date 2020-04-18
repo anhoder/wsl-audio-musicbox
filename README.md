@@ -20,7 +20,7 @@
 
 2. 下载或clone本项目，将auto、etc目录移动或覆盖到pulseaudio的根目录下
 
-3. 启动WSL，安装pulseaudio: `sudo apt install pulseaudio`，如果没有php环境，执行`sudo apt install php-cli`进行安装。**确保/etc/resolv.conf中有配置项**：`generateResolvConf = true`（如果没有，需要添加上，并**重启电脑**）
+3. 启动WSL，安装pulseaudio: `sudo apt install pulseaudio`，如果没有php环境，执行`sudo apt install php-cli`进行安装。**确保/etc/wsl.conf中有配置项**：`generateResolvConf = true`（如果没有，需要添加上，并**重启电脑**）
 
 4. Windows回到pulseaudio根目录，手动运行`auto`目录下的`start.bat`，出现`成功`表明一切顺利。（**如果你在WSL中使用的不是zsh，则需要打开`auto/start.bat`文件，将ubuntu1804.exe run "./start.php `echo ~/.zshrc` && source ~/.zshrc"中的`~/.zshrc`修改为你正在使用的环境变量文件，例如`~/.bashrc`**
 
