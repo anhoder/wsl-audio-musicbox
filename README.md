@@ -33,3 +33,4 @@
 
 > 只需要根据musicbox项目的Linux系统安装指引进行安装即可~~
 
+![musicbox](./musicbox.png)
