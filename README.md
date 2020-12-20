@@ -1,6 +1,6 @@
 # Windows的WSL音频解决方案
 
-***另一个项目[musicfox](https://github.com/AlanAlbert/musicfox)，使用Dart编写的命令行网易云音乐~***
+***另一个项目[musicfox](https://github.com/anhoder/musicfox)，使用Dart编写的命令行网易云音乐~***
 
 使用pulseaudio进行音频转发，本项目主要是为了简化WSL与Windows之间通信转发的配置
 
