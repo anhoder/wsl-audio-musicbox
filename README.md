@@ -1,3 +1,5 @@
+# WSL2已经可以播放音频，无需转发。musicbox和musicfox都可以直接使用了。
+
 # Windows的WSL音频解决方案
 
 ***另一个项目[musicfox](https://github.com/anhoder/musicfox)，使用Dart编写的命令行网易云音乐~***
